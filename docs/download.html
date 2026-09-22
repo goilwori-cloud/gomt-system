@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ML4T 가이드 다운로드</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card: #1a222c;
+      --text: #e7ecf1;
+      --muted: #9aa7b5;
+      --accent: #3d8bfd;
+      --accent2: #2f6fed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
+      background: radial-gradient(1200px 600px at 50% -10%, #1b2a40, var(--bg));
+      color: var(--text);
+      padding: 28px 18px 48px;
+    }
+    .wrap { max-width: 420px; margin: 0 auto; }
+    h1 { font-size: 1.35rem; margin: 0 0 8px; line-height: 1.35; }
+    p { color: var(--muted); line-height: 1.55; margin: 0 0 18px; font-size: 0.95rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid #2a3542;
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 14px;
+    }
+    a.btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background: linear-gradient(180deg, var(--accent), var(--accent2));
+      padding: 16px 14px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin-bottom: 10px;
+    }
+    a.btn.secondary {
+      background: #243041;
+      border: 1px solid #3a4a5e;
+      font-weight: 600;
+    }
+    ol { margin: 0; padding-left: 1.2rem; color: var(--muted); line-height: 1.6; font-size: 0.92rem; }
+    li { margin-bottom: 8px; }
+    code { color: #c7d7ea; }
+    .note { font-size: 0.85rem; color: var(--muted); margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>ML4T 쉽게 이해하기</h1>
+    <p>아이폰 Safari에서 <strong>.md / .zip</strong>으로 받는 페이지입니다.</p>
+
+    <div class="card">
+      <a class="btn" href="./ML4T_Korean_Guide.zip">1) ZIP으로 다운로드 (추천)</a>
+      <a class="btn secondary" href="./ML4T_Korean_Guide.md" download="ML4T_Korean_Guide.md">2) .md 직접 받기</a>
+      <p class="note">버튼이 바로 안 받아지면, 버튼을 <strong>길게 누르고</strong> → <strong>링크된 파일 다운로드</strong>를 선택하세요.</p>
+    </div>
+
+    <div class="card">
+      <p style="margin-bottom:10px;color:var(--text);font-weight:600;">ZIP 받은 뒤</p>
+      <ol>
+        <li><strong>파일</strong> 앱에서 다운로드한 zip을 탭</li>
+        <li>압축 해제되면 <code>ML4T_Korean_Guide.md</code>가 생깁니다</li>
+        <li>원하면 Books / GoodNotes / Obsidian 등으로 공유</li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>
